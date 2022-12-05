@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    margin-top: 32px;
+}
+
+header #avatar {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: left center;
+    background-image: url('../images/profile1.jpg');
+}
+
+header #introduction {
+    flex: 1;
+    padding: 14px;
+    margin-right: 16px;
+    background-color: rgb(240, 184, 116);
+    margin-left: 1rem;
+}
+header #sport {
+    padding:14px;
+    background-color: rgb(240, 184, 116);
+   
+
+}
+
+header #introduction small {
+    font-size: 12px;
+    text-align: center;
+}

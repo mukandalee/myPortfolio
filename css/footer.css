@@ -1,0 +1,31 @@
+
+footer #connect{
+    text-align: center;
+    margin-top: 140px;
+    text-decoration-color: aqua;
+
+}
+footer{
+    display: flex;
+    align-items: baseline;
+    margin-top:140;
+}
+footer #fb{
+    flex: 1;
+
+}
+
+footer #Twitter{
+    flex: 1;
+
+}
+
+footer #Ig{
+    flex: 1;
+
+}
+
+footer #Linkedn{
+    flex: 1;
+
+}
