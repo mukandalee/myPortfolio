@@ -1,113 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Leonard's Portfolio.</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mukanda Leonard</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="./css/nav.css" />
-        <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/footer.css">
+    <!-- script -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
-    </head>
+    <!-- favicons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <body>
-        <!-- Nav tag - hold your website links -->
-        <nav id="primary-nav">
-            <a class="primary-nav-item" href="/">
-                Home
-            <ul>
-                <li>
-                    <a class="primary-nav-item" href="about.html">About</a>
-                </li>
+</head>
 
-                <li>
-                    <a class="primary-nav-item" href="projects.html">Projects</a>
-                </li>
+<body id="top">
 
-                <li>
-                    <a class="primary-nav-item" href="contact.html">Contacts</a>
-                </li>
+    <!-- header -->
+    <header class="s-header">
+
+      
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
 
-        <!-- Header tag - holds your introductory -->
-        <h1>Mukanda leonard</h1>
-        <header>
-            
-            <div id="avatar">
-                
-            </div>
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
-            <div id="introduction">
-               
+    </header> <!-- end s-header -->
 
-                <small>        Development journey 👩‍💻 </small>
 
-                <div>
-                    <ol>
-                    <li><p>A full Stack developer </p></li>
-                   <li> <p>A mobile developer with 2 year of experience in android development.</p></li>
-                    
-                    <li><p> I also develop flutter app( junior flutter developer) </p></li>
-                  <li> <p> Web3.0 developer (react) </p></li> 
-                </ol>
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/myphoto2.jpeg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There!</h3>
+
+                <h1>
+                    I am Mukanda Leonard. <br>
+                    A Full Stack Developer <br>
+                    based in Nairobi, Kenya.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
                 </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
             </div>
-            <div id="sport">
-                <ol>
 
-                   <small>                    Sport Life </small>
+        </div> <!-- end home-content -->
 
-                   <li> <p>Taekwondo first Done holder  </p></li>
-                    <li><p> A member of world  Taekwondo Federation</p></li>
-                    
-                  <li>  <p> National team sparring patner and Coach</p></li>
-                    
-                   <li> <p> 2021 KIBU sports man of the year </p></li>
-                   <li> <p> Founder Alupe University Taekwondo Club</p></li>
+    </section> <!-- end s-home -->
 
-                </ol>
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About me</h3>
+               
+                <p class="lead">A self-driven Full Stack Developer with knowledge and experience in a vast range of technologies.</p>
             </div>
-        </header>
-        <div id="niconnect">
-            <h2> let's connect</h2>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Hello!</h3>
+
+                <p>I am a software engineer with extensive knowledge and experience in making scalable client-driven Web and Mobile applications with modern technologies and frameworks in a fast-paced ecosystem .  My goal is to make peoples lives sustainable with technology and streamline business operations by building reliable solutions. I am a self-driven ,critical thinker  who is constantly upskilling and learning more .I am currently looking for a new opportunity to broaden my skills and add value to a new development team.</p>
+                <br>
+                <h3>My Skills</h3>
+                <p>
+                    HTML | CSS| Java | React| Ruby | Android | Postgresql | MySQL |  | FLASK | MongoDB | Github | Heroku | Javascript | Typescript   | JQUERY  .
+                </p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>HTML5</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>93%</span></div>
+                     <strong>Javascript</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>RestAPI</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>CSS3</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>Ruby</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent80"><span>80%</span></div>
+                    <strong>Java</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>C#</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>Python</strong>
+                    </li>  
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>Darts</strong>
+                    </li>   
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            
+            <div class="col-twelve tab-full center">
+                <a href="#contact" class="btn full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-twelve tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">March 2022 - present(part-time)</p>
+                            <h3>Optica Kenya</h3>
+                            <h5>Backend software developer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <h4>Key Responsibilities</h4>
+                            <ul>
+                                <li> Creating RestAPI's for the delivery application.</li>
+                                <li> Liasing with the front-end developers for API consumption .</li>
+                                <li> Recording data and reporting it to relevant parties.</li>
+                                <li>Writing multiple lines of code and script and ensuring cross browser compliance.</li>
+            
+                                
+                            </ul>
+                        </div>
+                        
+                    </div> <!-- end timeline__block -->
+                    <div class="timeline">
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe">April 2021 - Present</p>
+                                <h3>Omdena</h3>
+                                <h5>Chapter Lead</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <h4>Key Responsibilities</h4>
+                                <ul>
+                                    <li> Analyzing and debugging code.</li>
+                                    <li>Troubleshooting and problem solving .</li>
+                                    <li>Mentoring the team members in development and technical progression.</li>
+                                    <li>Writing multiple lines of code and script and ensuring cross browser compliance.</li>
+                                    <li>Mentorship of other junior  members of the software development team and Machine Leraning team.</li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div> <!-- end timeline__block -->
+    
+
+            
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>See My Latest Projects.</h3>
+                <p class="lead">This is some of the projects I have done recently. They each involve a combination of different technologies that showcase my skillset. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-six">
+                <h3> Quote Office Application</h3>
+                <img src="https://eastwood.co.ke/wp-content/uploads/2021/04/home-office1.jpeg" alt="quote office app" height="100px">
+                <p> An application that enables user's to post quotes , view the posts of other users , downgrade , upgrade and comment on other quotes.<br>
+                    <strong>HTML | Typescript | Angular JS | CSS | Github </strong>
+                    <button  > <a href="https://nobella-nyarari-ejiofor.github.io/QuoteOfficeApp/"  target ="blank" >View Project</a></button>
+            </div>
+            <div class="col-six">
+                <h3> Pizza Parlour</h3>
+                <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="quote office app">
+                <p> An application that enables user's to order their pizza and hav them delivered to them . The user can choose their toppings , crust and sizes of choice . The user can then checkout and get a summary of their payments.<br>
+                    <strong>HTML | Javascript | JQuery | CSS | Github </strong><br>
+                    <button  > <a href="https://nobella-nyarari-ejiofor.github.io/Pizza-Parlour/"  target ="blank" >View Project</a></button>
+            </div>
+         
+        </div>
+
+        <div class="row">
+            <div class="col-six">
+                <h3> AwardsArena</h3>
+                <img  src="data:image/png;base64,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" alt="quote office app" height="100px">
+                <p>THis is an application where you can post your project and it's details , search for projects using their titles , view projects by other users, view your profile and all the projects you have posted among other functionalities. The project also helps users access API endpoints on all the Projects and Profiles created.<br>
+                    <strong>DJANGO |HTML | RestAPI's | Javascript |CSS |Github | Heroku | Postgresql </strong>
+                 </p>
+                    <button  > <a href="https://dashboard.heroku.com/apps/trophytower"  target ="blank" >View Project</a></button>
+            </div>
+            <div class="col-six">
+                <h3> Neighbourhood</h3>
+                <img id="github" src="https://welcomepackcanada.com/wp-content/uploads/2017/08/homes.jpg" alt="github avatar">
+                <p> This is an application where neighbours are able to interact with others in their Neighbourhood.A user can search for business in their neighbourhood , post Latest content in their neighbourhood and have access to their neighbours.<br>
+                    <strong> HTML |CSS |Github | DJANGO | RestAPI's | Bootstrap  | Postgresql | Heroku  </strong><br>
+            
+                    <button  > <a href="https://neighbourcorner.herokuapp.com/"  target ="blank" >View Project</a></button>
+            </div>
+         
+    </div>
+    <div class="row">
+        <div class="col-full">
+           <h3 class="text-center">  See more projects on <a href="" target="blank">My Github</a></h3>
+        </div>
+    </div>
+                
+                           
+    </section> <!-- end works -->
+   
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    10
+                </div>
+                <h4>Awards Received</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    2000
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    30
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    5
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
+        </div>
+    </section> <!-- end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                
+                <p class="lead">Feel free to reach out to me on any of the listed platforms. Looking forward to hearing from you!</p>
+            </div>
         </div>
         
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
 
-        <main>
+             
+                        
+            </div>
+            <!-- <form action="https://formsubmit.co/nobellanyarari@gmail.com" method="POST">
+                <input type="text" name="name" required placeholder="Name" >
+                <input type="email" name="email" required placeholder="Input your Email">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Send</button>
+           </form> -->
+           <form target="_blank" action="https://formsubmit.co/nobellanyarari@gmail.com" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control" placeholder="Full Name" >
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" ></textarea>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <button class="subscribe-form__submit" type="submit" data-drip-attribute="sign-up-button">Sign Up</button>
+          </form>
+          <p class="subscribe-form__thanks hide">Thanks for subscribing!</p>
+             <!-- contact-warning -->
+             <div class="message-warning">
+                Something went wrong. Please try again.
+            </div> 
+        
+            <!-- contact-success -->
+            <div class="message-success">
+                Your message was sent, thank you!<br>
+            </div>
 
-        </main>
+        </div>
 
-        <section></section>
+    </section> <!-- end s-contact -->
 
-        <footer>
-            <div id="connect">
-                <h1 style="text_alignment:center"></h1>
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+                    
             </div>
-            <div id="fb">
-                <p>Facebook </p>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Nobella Ejiofor</span> 
                
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
             </div>
-            <div id ="Twitter">
-                <p>Twitter </p>
-               
-            </div>
-            <div id="Ig">
-                <p>Instagram </p>
-               
-            </div id="Linkedn">
-            <div>
-                <p>Linkedn</p>
-               
-            </div>
-        </footer>
-    </body>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 
 </html>
