@@ -88,12 +88,6 @@
 
         });
 
-        // $WIN.on('resize', function() {
-        //     if ($WIN.width() <= 768) {
-        //             hdr.removeClass('sticky offset scrolling');
-        //     }
-        // });
-
     };
 
 
